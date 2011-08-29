@@ -38,7 +38,7 @@ module Devise
   
   # The model attribute used for query conditions. Should be the same as
   # the rubycas-server username_column. :username by default
-  @@cas_username_column = :username
+  @@cas_username_column = :name
 
   # Name of the parameter passed in the logout query 
   @@cas_destination_logout_param_name = nil

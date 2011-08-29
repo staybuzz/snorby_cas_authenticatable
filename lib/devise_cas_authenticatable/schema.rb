@@ -6,9 +6,9 @@ module Devise
     # this is just username (String).
     def cas_authenticatable
       if respond_to? :apply_devise_schema
-        apply_devise_schema :username, String
+        apply_devise_schema :name, String
       else
-        apply_schema :username, String
+        apply_schema :name, String
       end
     end
   end
